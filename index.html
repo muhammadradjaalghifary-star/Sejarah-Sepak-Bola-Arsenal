@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arsip Arsenal — Sejarah, Pencapaian, dan Prosesnya</title>
+<meta name="description" content="Sejarah Arsenal dari 1886 hingga sekarang: asal usul klub, stadion, dan pencapaian setiap musim sejak 2000 lengkap dengan jersey.">
+<meta property="og:title" content="Arsip Arsenal — Sejarah, Pencapaian, dan Prosesnya">
+<meta property="og:description" content="Sejarah Arsenal dari 1886 hingga sekarang: asal usul klub, stadion, dan pencapaian setiap musim sejak 2000 lengkap dengan jersey.">
+<meta name="theme-color" content="#F7F4EF">
+<link rel="icon" type="image/png" href="img/arsenal-crest.png">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=gambetta@400,500,600,700,401&f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<a href="#isi" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded focus:bg-ink focus:px-4 focus:py-2 focus:text-white">Lewati ke konten</a>
+<header class="header sticky top-0 z-50">
+  <div class="wrap flex h-16 items-center justify-between gap-4">
+    <a href="index.html" class="flex items-center gap-3" aria-label="Arsip Arsenal — beranda">
+      <img src="img/arsenal-crest.png" alt="Lambang Arsenal FC" width="30" height="35" class="h-9 w-auto">
+      <span class="leading-tight"><span class="block font-display text-[1.15rem] font-semibold">Arsip Arsenal</span><span class="block t-xs text-muted -mt-0.5">Sejarah · 1886–sekarang</span></span>
+    </a>
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Navigasi utama">
+      <a class="navlink" href="index.html" aria-current="page">Beranda</a><a class="navlink" href="asal-usul.html">Asal Usul</a><a class="navlink" href="stadion.html">Stadion</a>
+      <div class="relative">
+        <button id="eraBtn" class="navlink inline-flex items-center gap-1" aria-expanded="false" aria-controls="eraMenu">Sejarah per Era <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div id="eraMenu" hidden class="absolute right-0 top-full mt-2 w-80 rounded-xl border border-line bg-paper p-2 shadow-[0_12px_40px_-12px_rgba(22,24,29,.25)]"><a href="era-2000-2005.html" class="flex items-baseline justify-between gap-6 rounded-md px-3 py-2.5 hover:bg-paper2">
+      <span class="t-sm font-semibold">2000–2005</span><span class="t-xs text-muted">Era Emas Wenger</span></a><a href="era-2006-2010.html" class="flex items-baseline justify-between gap-6 rounded-md px-3 py-2.5 hover:bg-paper2">
+      <span class="t-sm font-semibold">2006–2010</span><span class="t-xs text-muted">Rumah Baru, Tim Muda</span></a><a href="era-2011-2015.html" class="flex items-baseline justify-between gap-6 rounded-md px-3 py-2.5 hover:bg-paper2">
+      <span class="t-sm font-semibold">2011–2015</span><span class="t-xs text-muted">Menghapus Puasa Gelar</span></a><a href="era-2016-2020.html" class="flex items-baseline justify-between gap-6 rounded-md px-3 py-2.5 hover:bg-paper2">
+      <span class="t-sm font-semibold">2016–2020</span><span class="t-xs text-muted">Akhir Sebuah Era</span></a><a href="era-2021-sekarang.html" class="flex items-baseline justify-between gap-6 rounded-md px-3 py-2.5 hover:bg-paper2">
+      <span class="t-sm font-semibold">2021–sekarang</span><span class="t-xs text-muted">Proyek Arteta</span></a></div>
+      </div>
+    </nav>
+    <button id="menuBtn" class="grid h-11 w-11 place-items-center rounded-full border border-line lg:hidden" aria-expanded="false" aria-controls="mobileMenu" aria-label="Buka menu">
+      <svg id="iconOpen" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg id="iconClose" class="hidden" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="progress h-[2px] bg-gunner"></div>
+</header>
+  <div id="mobileMenu" hidden class="menu-panel fixed inset-x-0 top-[66px] bottom-0 z-40 overflow-y-auto bg-paper lg:hidden">
+    <div class="wrap pb-12 pt-4">
+      <nav aria-label="Navigasi HP">
+        <a href="index.html" class="block border-b border-line py-4 font-display t-xl" aria-current="page">Beranda</a><a href="asal-usul.html" class="block border-b border-line py-4 font-display t-xl">Asal Usul</a><a href="stadion.html" class="block border-b border-line py-4 font-display t-xl">Stadion</a>
+        <p class="eyebrow mt-8 mb-1">Sejarah per Era</p>
+        <a href="era-2000-2005.html" class="flex items-baseline justify-between border-b border-line py-4">
+      <span class="font-display t-xl">2000–2005</span><span class="t-xs text-muted">Era Emas Wenger</span></a><a href="era-2006-2010.html" class="flex items-baseline justify-between border-b border-line py-4">
+      <span class="font-display t-xl">2006–2010</span><span class="t-xs text-muted">Rumah Baru, Tim Muda</span></a><a href="era-2011-2015.html" class="flex items-baseline justify-between border-b border-line py-4">
+      <span class="font-display t-xl">2011–2015</span><span class="t-xs text-muted">Menghapus Puasa Gelar</span></a><a href="era-2016-2020.html" class="flex items-baseline justify-between border-b border-line py-4">
+      <span class="font-display t-xl">2016–2020</span><span class="t-xs text-muted">Akhir Sebuah Era</span></a><a href="era-2021-sekarang.html" class="flex items-baseline justify-between border-b border-line py-4">
+      <span class="font-display t-xl">2021–sekarang</span><span class="t-xs text-muted">Proyek Arteta</span></a>
+      </nav>
+    </div>
+  </div>
+
+<main id="isi">
+
+<section class="wrap grid items-center gap-10 pb-16 pt-10 md:grid-cols-[1.1fr_1fr] md:gap-14 md:pb-24 md:pt-16">
+  <div>
+    <p class="eyebrow">Sejarah Arsenal Football Club</p>
+    <h1 class="font-display t-3xl mt-4 font-medium tracking-tight">Dari bengkel senjata di Woolwich ke puncak Inggris.</h1>
+    <p class="t-base mt-6 max-w-prose text-muted">Arsip ringkas tentang perjalanan Arsenal: bagaimana klub ini lahir, kejayaannya sepanjang abad ke-20, dan proses di balik setiap gelar sejak tahun 2000 — lengkap dengan jersey yang dipakai di setiap musim.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="asal-usul.html" class="btn-primary">Mulai dari asal usul <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="era-2000-2005.html" class="btn-ghost">Lompat ke era 2000–2005</a>
+    </div>
+  </div>
+  
+<figure class="figure md:mt-6">
+  <img src="img/tim-1888.webp" alt="Foto hitam-putih skuad Royal Arsenal tahun 1888 berpose dengan seragam gelap" class="aspect-[16/10] grayscale-[20%]" fetchpriority="high" decoding="async">
+  <figcaption class="figcap">Skuad Royal Arsenal, 1888. Domain publik via <a href="https://commons.wikimedia.org/wiki/File:Arsenal_1888_squad_photo.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption>
+</figure>
+</section>
+
+<section class="border-y border-line bg-paper2">
+  <div class="wrap grid grid-cols-2 gap-y-8 py-10 md:grid-cols-4">
+    <div class="reveal"><p class="font-display t-2xl font-medium text-gunner">14</p><p class="t-sm mt-1 text-muted">Gelar juara Inggris</p></div><div class="reveal"><p class="font-display t-2xl font-medium text-gunner">14</p><p class="t-sm mt-1 text-muted">Piala FA — rekor</p></div><div class="reveal"><p class="font-display t-2xl font-medium text-gunner">2</p><p class="t-sm mt-1 text-muted">Piala Liga</p></div><div class="reveal"><p class="font-display t-2xl font-medium text-gunner">2</p><p class="t-sm mt-1 text-muted">Trofi Eropa</p></div>
+  </div>
+</section>
+
+<section class="wrap py-16 md:py-24">
+  <div class="grid gap-10 md:grid-cols-[1fr_2fr] md:gap-16">
+    <div class="md:sticky md:top-24 md:self-start">
+      <p class="eyebrow">Abad ke-20</p>
+      <h2 class="font-display t-2xl mt-3 font-medium">Sepuluh momen yang membentuk klub</h2>
+      <p class="t-base mt-4 text-muted">Sebelum era modern, Arsenal sudah melewati perpindahan kota, dominasi 1930-an, dan tiga gelar Double. Ringkasan ini menjadi latar untuk halaman-halaman era sesudahnya.</p>
+      <a href="asal-usul.html" class="t-sm mt-6 inline-flex items-center gap-2 font-semibold text-gunner">Cerita lengkap asal usul <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <ol class="relative border-l border-line">
+      
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1886</p>
+        <h3 class="t-base mt-1 font-semibold">Lahir di Woolwich</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Pekerja pabrik senjata Royal Arsenal mendirikan Dial Square, yang segera berganti nama menjadi Royal Arsenal.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1893</p>
+        <h3 class="t-base mt-1 font-semibold">Klub selatan pertama di Football League</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Sebagai Woolwich Arsenal, klub menjadi tim pertama dari selatan Inggris yang masuk Football League.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1913</p>
+        <h3 class="t-base mt-1 font-semibold">Pindah ke Highbury</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Henry Norris memindahkan klub ke London utara. Highbury menjadi rumah selama 93 tahun.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1919</p>
+        <h3 class="t-base mt-1 font-semibold">Naik ke Divisi Satu</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Arsenal terpilih ke kasta tertinggi dan tidak pernah terdegradasi sejak itu.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1930</p>
+        <h3 class="t-base mt-1 font-semibold">Trofi pertama</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Di bawah Herbert Chapman, Arsenal menjuarai Piala FA — awal dekade penuh gelar.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1931–38</p>
+        <h3 class="t-base mt-1 font-semibold">Penguasa tahun 1930-an</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Lima gelar liga dalam delapan musim, termasuk tiga beruntun pada 1933–1935.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1971</p>
+        <h3 class="t-base mt-1 font-semibold">Double pertama</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Tim Bertie Mee menjuarai liga dan Piala FA di musim yang sama.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1989</p>
+        <h3 class="t-base mt-1 font-semibold">Detik terakhir di Anfield</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Gol Michael Thomas di menit akhir memberi gelar liga di bawah George Graham.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1994</p>
+        <h3 class="t-base mt-1 font-semibold">Piala Winners Eropa</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Gol Alan Smith mengalahkan Parma di Kopenhagen.</p>
+      </li>
+      <li class="reveal relative pb-9 pl-7 last:pb-0 sm:pl-10">
+        <span class="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-gunner"></span>
+        <p class="font-display t-lg font-semibold text-gunner">1998</p>
+        <h3 class="t-base mt-1 font-semibold">Double era Wenger</h3>
+        <p class="t-sm mt-1 max-w-prose text-muted">Musim kedua penuh Arsène Wenger ditutup dengan liga dan Piala FA.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="wrap pb-8">
+  <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
+    <div>
+      <p class="eyebrow">2000 — sekarang</p>
+      <h2 class="font-display t-2xl mt-3 font-medium">Sejarah per era</h2>
+    </div>
+    <p class="t-sm max-w-md text-muted">Setiap halaman berisi pencapaian, proses, dan foto jersey kandang resmi untuk tiap musim.</p>
+  </div>
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    
+    <a href="era-2000-2005.html" class="reveal group flex flex-col rounded-2xl border border-line bg-paper p-5 transition-colors hover:border-ink sm:p-6">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="t-xs font-semibold text-muted">Bagian 1</p>
+          <p class="font-display t-xl mt-1">2000–2005</p>
+          <p class="t-sm mt-1 font-medium">Era Emas Wenger</p>
+        </div>
+        <div class="jersey-card w-20 shrink-0 overflow-hidden rounded-lg bg-white p-1 sm:w-24"><img src="img/jersey-2000-01.webp" alt="Jersey kandang Arsenal 2000/01" width="720" height="720" class="block aspect-square w-full object-contain " loading="lazy" decoding="async"></div>
+      </div>
+      <p class="t-sm mt-4 text-muted">Lima musim ketika Arsenal menjadi standar baru sepak bola Inggris: dua gelar liga, tiga Piala FA, dan satu musim tanpa kekalahan yang belum pernah diulang di era Premier League.</p>
+      <span class="t-sm mt-auto inline-flex items-center gap-2 pt-5 font-semibold text-gunner">Baca era ini <span class="transition-transform group-hover:translate-x-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+    </a>
+    <a href="era-2006-2010.html" class="reveal group flex flex-col rounded-2xl border border-line bg-paper p-5 transition-colors hover:border-ink sm:p-6">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="t-xs font-semibold text-muted">Bagian 2</p>
+          <p class="font-display t-xl mt-1">2006–2010</p>
+          <p class="t-sm mt-1 font-medium">Rumah Baru, Tim Muda</p>
+        </div>
+        <div class="jersey-card w-20 shrink-0 overflow-hidden rounded-lg bg-white p-1 sm:w-24"><img src="img/jersey-2006-07.webp" alt="Jersey kandang Arsenal 2006/07" width="720" height="720" class="block aspect-square w-full object-contain " loading="lazy" decoding="async"></div>
+      </div>
+      <p class="t-sm mt-4 text-muted">Pindah ke Emirates Stadium berarti utang besar untuk pembangunan. Wenger merespons dengan proyek pemain muda — sepak bola indah, tetapi trofi tak kunjung datang.</p>
+      <span class="t-sm mt-auto inline-flex items-center gap-2 pt-5 font-semibold text-gunner">Baca era ini <span class="transition-transform group-hover:translate-x-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+    </a>
+    <a href="era-2011-2015.html" class="reveal group flex flex-col rounded-2xl border border-line bg-paper p-5 transition-colors hover:border-ink sm:p-6">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="t-xs font-semibold text-muted">Bagian 3</p>
+          <p class="font-display t-xl mt-1">2011–2015</p>
+          <p class="t-sm mt-1 font-medium">Menghapus Puasa Gelar</p>
+        </div>
+        <div class="jersey-card w-20 shrink-0 overflow-hidden rounded-lg bg-white p-1 sm:w-24"><img src="img/jersey-2011-12.webp" alt="Jersey kandang Arsenal 2011/12" width="720" height="720" class="block aspect-square w-full object-contain " loading="lazy" decoding="async"></div>
+      </div>
+      <p class="t-sm mt-4 text-muted">Setelah kehilangan banyak pemain bintang, Arsenal mulai berbelanja besar. Hasilnya: puasa trofi sembilan tahun berakhir lewat dua Piala FA beruntun.</p>
+      <span class="t-sm mt-auto inline-flex items-center gap-2 pt-5 font-semibold text-gunner">Baca era ini <span class="transition-transform group-hover:translate-x-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+    </a>
+    <a href="era-2016-2020.html" class="reveal group flex flex-col rounded-2xl border border-line bg-paper p-5 transition-colors hover:border-ink sm:p-6">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="t-xs font-semibold text-muted">Bagian 4</p>
+          <p class="font-display t-xl mt-1">2016–2020</p>
+          <p class="t-sm mt-1 font-medium">Akhir Sebuah Era</p>
+        </div>
+        <div class="jersey-card w-20 shrink-0 overflow-hidden rounded-lg bg-white p-1 sm:w-24"><img src="img/jersey-2016-17.webp" alt="Jersey kandang Arsenal 2016/17" width="720" height="720" class="block aspect-square w-full object-contain " loading="lazy" decoding="async"></div>
+      </div>
+      <p class="t-sm mt-4 text-muted">Arsène Wenger pamit setelah hampir 22 tahun. Klub melewati masa transisi yang sulit sebelum Mikel Arteta, mantan kaptennya, mengambil alih.</p>
+      <span class="t-sm mt-auto inline-flex items-center gap-2 pt-5 font-semibold text-gunner">Baca era ini <span class="transition-transform group-hover:translate-x-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+    </a>
+    <a href="era-2021-sekarang.html" class="reveal group flex flex-col rounded-2xl border border-line bg-paper p-5 transition-colors hover:border-ink sm:p-6">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="t-xs font-semibold text-muted">Bagian 5</p>
+          <p class="font-display t-xl mt-1">2021–sekarang</p>
+          <p class="t-sm mt-1 font-medium">Proyek Arteta</p>
+        </div>
+        <div class="jersey-card w-20 shrink-0 overflow-hidden rounded-lg bg-white p-1 sm:w-24"><img src="img/jersey-2021-22.webp" alt="Jersey kandang Arsenal 2021/22" width="720" height="720" class="block aspect-square w-full object-contain " loading="lazy" decoding="async"></div>
+      </div>
+      <p class="t-sm mt-4 text-muted">Skuad termuda di liga, kepercayaan pada pelatih, dan tiga musim beruntun sebagai runner-up — hingga gelar liga pertama dalam 22 tahun pada 2025/26.</p>
+      <span class="t-sm mt-auto inline-flex items-center gap-2 pt-5 font-semibold text-gunner">Baca era ini <span class="transition-transform group-hover:translate-x-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+    </a>
+    <a href="stadion.html" class="reveal group relative flex min-h-[16rem] flex-col justify-end overflow-hidden rounded-2xl bg-ink p-6 text-white">
+      <img src="img/emirates-2016.webp" alt="" loading="lazy" class="absolute inset-0 h-full w-full object-cover opacity-45 transition-transform duration-700 group-hover:scale-105">
+      <div class="relative">
+        <p class="t-xs font-semibold uppercase tracking-[0.14em] text-white/80">Halaman khusus</p>
+        <p class="font-display t-xl mt-1">Stadion</p>
+        <p class="t-sm mt-1 text-white/85">Dari Manor Ground, Highbury, hingga Emirates.</p>
+      </div>
+    </a>
+  </div>
+</section>
+</main>
+
+<footer class="mt-24 border-t border-line bg-paper2">
+  <div class="wrap grid gap-10 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
+    <div>
+      <p class="font-display t-lg font-semibold">Arsip Arsenal</p>
+      <p class="t-sm mt-2 max-w-sm text-muted">Situs edukasi tentang perjalanan Arsenal Football Club. Tidak berafiliasi dengan klub. Lambang dan desain jersey adalah merek dagang Arsenal FC dan pabrikannya; ditampilkan untuk tujuan edukasi.</p>
+    </div>
+    <div>
+      <p class="eyebrow mb-3">Halaman</p>
+      <ul class="t-sm space-y-2">
+        <li><a class="hover:text-gunner" href="index.html">Beranda</a></li><li><a class="hover:text-gunner" href="asal-usul.html">Asal Usul</a></li><li><a class="hover:text-gunner" href="stadion.html">Stadion</a></li>
+        <li><a class="hover:text-gunner" href="era-2000-2005.html">Era 2000–2005</a></li><li><a class="hover:text-gunner" href="era-2006-2010.html">Era 2006–2010</a></li><li><a class="hover:text-gunner" href="era-2011-2015.html">Era 2011–2015</a></li><li><a class="hover:text-gunner" href="era-2016-2020.html">Era 2016–2020</a></li><li><a class="hover:text-gunner" href="era-2021-sekarang.html">Era 2021–sekarang</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="eyebrow mb-3">Sumber utama</p>
+      <ul class="t-xs space-y-2 text-muted">
+        <li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://www.arsenal.com/feature/come-on-you-reds-the-clubs-colours-ayiCp8g3niSF" target="_blank" rel="noopener">Arsenal.com — sejarah warna & kit</a></li><li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://www.arsenal.com/news/arsenal-crowned-202526-premier-league-champions-aOhcw4T06mFw" target="_blank" rel="noopener">Arsenal.com — juara Premier League 2025/26</a></li><li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://en.wikipedia.org/wiki/Arsenal_Stadium" target="_blank" rel="noopener">Wikipedia — Arsenal Stadium (Highbury)</a></li><li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://en.wikipedia.org/wiki/Emirates_Stadium" target="_blank" rel="noopener">Wikipedia — Emirates Stadium</a></li><li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://en.wikipedia.org/wiki/History_of_Arsenal_F.C._(1886%E2%80%931966)" target="_blank" rel="noopener">Wikipedia — Sejarah Arsenal F.C.</a></li><li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://www.footballkitarchive.com/arsenal-fc-kits-t9/" target="_blank" rel="noopener">Football Kit Archive — foto jersey Arsenal</a></li><li><a class="underline decoration-line underline-offset-2 hover:text-ink" href="https://www.uefa.com/uefachampionsleague/news/02a5-20c02e59f219-15e92acdc717-1000/" target="_blank" rel="noopener">UEFA.com — final Liga Champions 2026</a></li>
+      </ul>
+      <p class="t-xs mt-4 text-muted">Data diperbarui per 7 November 2026.</p>
+    </div>
+  </div>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>
